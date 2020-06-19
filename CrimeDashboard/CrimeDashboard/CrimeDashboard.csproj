@@ -115,6 +115,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Crime_Berlin.db" />
+    <Content Include="bin\Debug\x64\SQLite.Interop.dll" />
+    <Content Include="bin\Debug\x86\SQLite.Interop.dll" />
     <Resource Include="Ausgewählte Tasks.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

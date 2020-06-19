@@ -68,8 +68,8 @@
                     <Binding Source="{StaticResource access}"/>
                 </StackPanel.DataContext>
                 <Label FontWeight="Bold" FontSize="20" Margin="0,0,0,20" Content="Jahr" VerticalContentAlignment="Center" HorizontalAlignment="Left"/>
-                    <ComboBox Name="cbYears" SelectionChanged="Z_Selected" IsDropDownOpen="True">
-                        <ComboBoxItem Name="Jahr1" >2012</ComboBoxItem>
+                    <ComboBox Name="cbYears" SelectionChanged="Z_Selected"  >
+                        <ComboBoxItem  >2012</ComboBoxItem>
                         <ComboBoxItem >2013</ComboBoxItem>
                         <ComboBoxItem >2014</ComboBoxItem>
                         <ComboBoxItem >2015</ComboBoxItem>

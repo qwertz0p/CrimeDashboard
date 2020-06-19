@@ -30,8 +30,8 @@ namespace CrimeDashboard
         public MainWindow()
         {
             InitializeComponent();
-
             
+
             // Bezirke werden als Labels gesetz
             RegionLabel = SQLiteDataAccess.SelectRegions().ToArray();
 
